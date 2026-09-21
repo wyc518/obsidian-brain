@@ -1,0 +1,21 @@
+# 环境与密钥
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 数据与向量库（体积大，不入库）
+data/*.json
+data/*.jsonl
+chroma_db/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
